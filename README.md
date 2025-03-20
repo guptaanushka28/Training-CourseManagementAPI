@@ -54,8 +54,8 @@ URL: http://localhost:8080/swagger-ui/index.html
 | `DELETE` | `/api/v1/training-centers/{trainingCenterId}`                      | Delete a training center by ID    |
 | `GET`    | `/api/v1/training-centers/searchByCenterName?centerName={name}`    | Search by training center name    |
 | `GET`    | `/api/v1/training-centers/searchByCourseName?courseName={name}`    | Search by course name             |
-| `GET`    | `/api/v1/training-centers/advancedSearchByCourseName?query={name}` | Advanced search -- you can search |
-                                                                 institute by giving some letter of your institute  |
+| `GET`    | `/api/v1/training-centers/advancedSearchByCourseName?query={name}` | Advanced search by giving 2-3 alphabets |
+                                                               
 
 
 ⚡ Global Exception Handling
